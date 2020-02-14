@@ -1,0 +1,58 @@
+.avatar {
+    background-color: #00061d;
+    width: 400px;
+    height: 350px;
+}
+.img-avatar {
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    margin-top: 20px;
+    margin-left: 25%;
+}
+.name {
+    width: 400px;
+    height: 30px;
+
+}
+.infor {
+    width: 400px;
+    background-color: #202c3f;
+
+}
+.table-1{
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+h3 {
+    text-align: center;
+    color: white;
+}
+h2{
+    text-align: center;
+    color: white;
+}
+.ic_calendar, .ic_facebook, .ic_phone, .ic_user, .ic_mail, .ic_pin {
+    width: 20px;
+    height: 20px;
+    margin-left: 200%;
+}
+.sdt, .date, .gioitinh, .daichi, .facebook, .mail{
+    text-align: left;
+    margin-left: 300px;
+}
+.mtnnghiep{
+    color: white;
+}
+.kynang1, .kynang2, .kynang3, .kynang4, .kynang5 {
+    width: 30%;
+    height: 30%;
+    margin-left: 35%;
+}
+.sothich{
+    color: white;
+}
