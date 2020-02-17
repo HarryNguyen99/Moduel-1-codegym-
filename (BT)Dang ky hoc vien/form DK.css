@@ -1,0 +1,19 @@
+.form-dk {
+    width: 600px;
+    height: auto;
+    border: blue 2px solid;
+    margin: 100px 500px;
+}
+.tieude-form h2 {
+    margin-top: 0px;
+    color: white;
+    background-color: blue;
+}
+.noidung-form{
+    padding-left: 10px;
+}
+.buttom-form {
+    padding-left: 107px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}

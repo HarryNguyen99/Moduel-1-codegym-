@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Đăng Ký Học Viên</title>
+    <link rel="stylesheet" href="form DK.css">
+</head>
+<body>
+<form name="DangKy" method="get">
+    <div class="form-dk">
+        <div class="tieude-form">
+            <h2>ĐĂNG KÝ HỌC VIÊN</h2>
+        </div>
+        <div class="noidung-form">
+            <div>
+                <table>
+                    <tr>
+                        <td style="width: 100px">Họ và tên:</td>
+                        <td><input name="yourname" type="text"/></td>
+                    </tr>
+                    <tr>
+                        <td>Ngày Sinh:</td>
+                        <td><input name="yearbirth" type="date"/></td>
+                    </tr>
+                </table>
+            </div>
+            <div>
+                <table>
+                    <tr>
+                        <td style="width: 100px">Giới Tính:</td>
+                        <td><input type="radio" name="Nam"/></td>
+                        <td>Nam</td>
+                        <td><input type="radio" name="Nu"/></td>
+                        <td>Nữ</td>
+                    </tr>
+                </table>
+            </div>
+            <div>
+                <table>
+                    <tr>
+                        <td style="width: 100px">Địa Chỉ:</td>
+                        <td><textarea></textarea></td>
+                    </tr>
+
+                </table>
+            </div>
+            <div>
+                <table>
+                    <tr>
+                        <td style="width: 100px">Lớp:</td>
+                        <td>
+                            <select name="Lop">
+                                <option value="chon lop">---Chọn Lớp---</option>
+                                <option value="10">Lớp 10</option>
+                                <option value="11">Lớp 11</option>
+                                <option value="12">Lớp 12</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="width: 100px">Email:</td>
+                        <td><input name="email" type="text"/></td>
+                    </tr>
+                    <tr>
+                        <td>Điện Thoại:</td>
+                        <td><input name="phone" type="text"/></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="buttom-form">
+                <input name="DangKy" type="submit" value="ĐĂNG KÝ"/>
+                <input name="Nhaplai" type="reset" value="NHẬP LẠI"/>
+            </div>
+        </div>
+    </div>
+</form>
+</body>
+</html>
