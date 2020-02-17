@@ -1,0 +1,23 @@
+.tkb1{
+    width: 400px;
+    height: auto;
+    border: blue 2px solid;
+    margin: 200px 600px;
+}
+.tieude-tkb h2 {
+    background-color: blue;
+    color: white;
+    margin-top: 0px;
+    text-align: center;
+}
+table, td, th {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th {
+    background-color: yellow;
+}
+table {
+    margin-bottom: 20px;
+    margin-left: 80px;
+}

@@ -1,0 +1,30 @@
+.tkb2{
+    width: 600px;
+    height: auto;
+    border: blue 2px solid;
+    margin: 200px 500px;
+}
+.tieude-tkb h2 {
+    color: blue;
+    text-align: center;
+}
+.tkh-bang td, th {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+th {
+    background-color: yellow;
+}
+table {
+    margin-bottom: 20px;
+    margin-left: 50px;
+    text-align: center;
+}
+.tieude-dong{
+    background-color: #ff930e;
+}
+#bang-thongtin {
+    width: 530px;
+    margin-bottom: 5px;
+}
