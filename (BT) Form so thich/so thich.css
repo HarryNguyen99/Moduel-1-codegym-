@@ -1,0 +1,21 @@
+.form-sothich {
+    width: 500px;
+    height: 300px;
+    border: blue 3px solid;
+    margin: 100px 550px;
+}
+.tieude-form h2 {
+    width: 500px;
+    height: auto;
+    background-color: blue;
+    margin-top: 0;
+    text-align: center;
+    color: white;
+}
+.buttom-form {
+    padding-left: 70px;
+    padding-top: 10px;
+}
+.noidung-form {
+    margin: 5px 0 0 80px;
+}
