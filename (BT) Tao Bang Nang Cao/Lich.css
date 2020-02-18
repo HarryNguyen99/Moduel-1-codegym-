@@ -1,0 +1,28 @@
+th {
+    width: 102px;
+    height: 50px;
+    text-align: center;
+    color: white;
+}
+.chunhat {
+    background-color: red;
+}
+td {
+    text-align: center;
+    width: 100px;
+    height: 40px;
+}
+.ngay td {
+    border-collapse: collapse;
+    border: grey 1px solid;
+}
+.khung {
+    width: 800px;
+    height: 450px;
+    border: blue 2px solid;
+    margin: 100px 400px;
+    text-align: center;
+}
+.bang {
+    margin-left: 30px;
+}
