@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chỉ Số Cơ Thể</title>
+</head>
+<body>
+<div>
+    <table style="border-collapse: collapse" width="300">
+        <tr style="border-bottom: black 2px solid">
+            <th style="text-align: left">BMI</th>
+            <th style="text-align: left">Interpretation</th>
+        </tr>
+        <tr>
+            <td>BMI < 18.5</td>
+            <td>Underweight</td>
+        </tr>
+        <tr>
+            <td>18.5 < BMI < 25.0</td>
+            <td>Normal</td>
+        </tr>
+        <tr>
+            <td>25.0 < BMI < 30.0</td>
+            <td>Overweight</td>
+        </tr>
+        <tr>
+            <td>30.0 <= BMI</td>
+            <td>Obese</td>
+        </tr>
+    </table>
+</div>
+<div>
+    <form style="margin: 20px 0 0 0">
+        Nhập cân nặng (kg):
+        <input type="text" id="cannang"/><br><br>
+        Nhập chieu cao (m):
+        <input type="text" id="chieucao"/><br><br>
+        <button type="button" onclick="tinhBmi()" style="margin: 0 0 0 135px">Kết Quả</button>
+        <p id="chiso" style="margin: 20px 0 0 135px"></p>
+    </form>
+</div>
+<script src="js/app.js"></script>
+</body>
+</html>
