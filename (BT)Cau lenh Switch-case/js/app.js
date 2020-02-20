@@ -1,7 +1,8 @@
 
-    function tínhsongay() {
+    function tinhsongay() {
         let month = document.getElementById("thang").value;
-        if (month >= 1 && month <= 12) {
+        let m = parseInt(month);
+        if (m >= 1 && m <= 12) {
             switch (month) {
                 case 1:
                 case 3:
@@ -20,4 +21,4 @@
         } else
             document.getElementById("songay").innerHTML = "Nhập Lại";
 
-    }
+    };
