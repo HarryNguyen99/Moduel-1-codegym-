@@ -15,28 +15,28 @@
                 </th>
             </tr>
             <tr>
-                <td><input class="btn" type="button" id="so1" value="1" onclick="calculator.manhinh.value += 1"/></td>
-                <td><input class="btn" type="button" id="so2" value="2" onclick="calculator.manhinh.value += 2"/></td>
-                <td><input class="btn" type="button" id="so3" value="3"/></td>
-                <td><input class="btn" type="button" id="cong" value="+" onclick="calculator.manhinh.value += '+'"/></td>
+                <td><input class="btn" type="button" id="so1" value="1" onclick="f1(this.value)"/></td>
+                <td><input class="btn" type="button" id="so2" value="2" onclick="f2(this.value)"/></td>
+                <td><input class="btn" type="button" id="so3" value="3" onclick="f3(this.value)"/></td>
+                <td><input class="btn" type="button" id="cong" value="+" onclick="fc(this.value)"/></td>
             </tr>
             <tr>
-                <td><input class="btn" type="button" id="so4"  value="4"/></td>
-                <td><input class="btn" type="button" id="so5" value="5"/></td>
-                <td><input class="btn" type="button" id="so6" value="6"/></td>
-                <td><input class="btn" type="button" id="tru" value="-"/></td>
+                <td><input class="btn" type="button" id="so4"  value="4" onclick="f4(this.value)"/></td>
+                <td><input class="btn" type="button" id="so5" value="5" onclick="f5(this.value)"/></td>
+                <td><input class="btn" type="button" id="so6" value="6" onclick="f6(this.value)"/></td>
+                <td><input class="btn" type="button" id="tru" value="-" onclick="ft(this.value)"/></td>
             </tr>
             <tr>
-                <td><input class="btn" type="button" id="so7" value="7"/></td>
-                <td><input class="btn" type="button" id="so8" value="8"/></td>
-                <td><input class="btn" type="button" id="so9" value="9"/></td>
-                <td><input class="btn" type="button" id="nhan" value="x"/></td>
+                <td><input class="btn" type="button" id="so7" value="7" onclick="f7(this.value)"/></td>
+                <td><input class="btn" type="button" id="so8" value="8" onclick="f7(this.value)"/></td>
+                <td><input class="btn" type="button" id="so9" value="9" onclick="f7(this.value)"/></td>
+                <td><input class="btn" type="button" id="nhan" value="x" onclick="fn(this.value)"/></td>
             </tr>
             <tr>
-                <td><input class="btn" type="button" id="reset" value="C"/></td>
-                <td><input class="btn" type="button" id="so0" value="0"/></td>
-                <td><input class="btn" type="button" id="bang" value="=" onclick="calculator.manhinh.value = eval(calculator.manhinh.value)"/></td>
-                <td><input class="btn" type="button" id="chia" value=":"/></td>
+                <td><input class="btn" type="button" value="C" onclick="fcc()"/></td>
+                <td><input class="btn" type="button" id="so0" value="0" onclick="f0(this.value)"/></td>
+                <td><input class="btn" type="button" id="bang" value="=" onclick="fb"/></td>
+                <td><input class="btn" type="button" id="chia" value=":" onclick="fccc(this.value)"/></td>
             </tr>
         </table>
     </form>
