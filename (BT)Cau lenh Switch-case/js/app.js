@@ -3,7 +3,7 @@
         let month = document.getElementById("thang").value;
         let m = parseInt(month);
         if (m >= 1 && m <= 12) {
-            switch (month) {
+            switch (m) {
                 case 1:
                 case 3:
                 case 5:
@@ -15,6 +15,7 @@
                     break;
                 case 2:
                     document.getElementById("songay").innerHTML = "Tháng 2 Có 28, 29 Ngày";
+                    break;
                 default :
                     document.getElementById("songay").innerHTML = "Tháng Có 30 Ngày";
             }
